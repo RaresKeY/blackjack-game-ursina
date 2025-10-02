@@ -1,5 +1,4 @@
-from ursina import Entity, Vec3, BoxCollider, color, shader, held_keys, mouse, camera, scene, destroy, load_model
-from ursina.shaders import ssao_shader
+from ursina import Entity, Vec3, color, held_keys, mouse, camera, scene, destroy, load_model
 from ursina.collider import MeshCollider
 from panda3d.core import SamplerState, BitMask32
 
@@ -49,7 +48,7 @@ class GEntity(Entity):
         # Apply filtering right away
         self._set_filtering()
 
-        # set outline as hidde for object
+        # set outline as hidden for object
         self.hide(BIT)
 
     def _set_filtering(self):

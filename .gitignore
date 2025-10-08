@@ -1,3 +1,40 @@
-*
-!gentity.py
-!.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+.venv
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+main.build/
+main.dist/
+main.onefile-build/
+build_Linux/
+main.bin
+Blackjack
+
+# temp
+test.bin
+test.py
+
+# Specific
+coin/
+models_compressed/
+planet/
+test_learn/
+script_e.py
+old_outline_shader/
+build_report.xml
+
+# Log files
+*.log
